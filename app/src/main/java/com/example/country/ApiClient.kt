@@ -11,7 +11,6 @@ class ApiClient {
         val BASE_URL="https://restcountries.com/v2/"
         lateinit var retrofit: Retrofit
 
-
         fun getApiClient(): Retrofit {
 
             retrofit=Retrofit.Builder()
@@ -20,6 +19,7 @@ class ApiClient {
                 .build()
 
             return retrofit
+
         }
     }
 }

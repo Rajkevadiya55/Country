@@ -1,8 +1,8 @@
 package com.example.country
 
 import com.google.gson.annotations.SerializedName
-
 data class LanguagesItem(
+
 
 	@field:SerializedName("nativeName")
 	val nativeName: String? = null,
@@ -16,10 +16,7 @@ data class LanguagesItem(
 	@field:SerializedName("iso639_1")
 	val iso6391: String? = null
 )
-
 data class CountryModel(
-
-
 
 	@field:SerializedName("nativeName")
 	val nativeName: String? = null,

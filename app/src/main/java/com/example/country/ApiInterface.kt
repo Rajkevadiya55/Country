@@ -6,6 +6,7 @@ import retrofit2.http.GET
 interface ApiInterface {
 
     @GET("all")
-    fun  getAllCountry(): retrofit2.Call<List<CountryModel>>
+    fun getAllCountry(): Call<List<CountryModel>>
+
 
 }
